@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* , *::after, *::before{
+    box-sizing: inherit;
+}
+
+body {
+    padding: 10%;
+    background-color: #acd9d9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px; 
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-media img {
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+}
+
+.full-size {
+    width: 100%;
+}
